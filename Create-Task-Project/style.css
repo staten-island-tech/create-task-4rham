@@ -9,3 +9,14 @@ body,
   color: rgb(0, 0, 0);
 }
 
+:root{
+  --red: #ea0012
+  --blue: #3a5da8
+  --yellow: #ffcb05
+  --black:#000005
+  --white:#f5f5f5
+}
+
+.balls{
+  width: ;
+}
