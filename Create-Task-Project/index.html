@@ -5,11 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <div class = "font">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"></div>
   </head>
   <body>
     <div id="app"></div>\
-    <h1>Whos That Pokemon?</h1>
-    <img class = "balls" src="My project.png" alt="balls">
+    <h1 class = "who">Whos That Pokemon?</h1>
+    <div class = "guess">
+      <img id = "balls" src="My project.png" alt="balls">
+      <div id = "img"></div>
+    </div>
+    <div class = "game">
+      <div id ="letter"></div>
+      <div id ="prompt"></div>
+      <button id = "reset">reset</button>
+      <h3 id = "score">Score</h3>
+      <h3 id = "lives">Live</h3>
+    </div> 
     <section class = "Result">
       <div id = "result"></div>
     </section>
