@@ -5,7 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: var(--primary);
+  background-color: #79c877;
   color: rgb(0, 0, 0);
   font-family: 'Press Start 2P', cursive;
 }
@@ -13,24 +13,67 @@ body,
 :root{
   --red: #ea0012
   --blue: #3a5da8
-  --yellow: #ffcb05
+  --yellow: #ffcb05 
   --black:#000005
   --white:#f5f5f5
 }
 
 #balls{
-  width: 800px;
+  width: 500px;
   height: auto;
   display: block;
   margin: auto;
+  margin-top: -515px;
 }
 
 .who{
   font-size: 5rem;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 #prompt{
   font-size: 2.5rem;
   text-align: center;
+}
+
+.game {
+  font-size: 3.5rem;
+  margin-left: 80px;
+  margin-top: -450px;
+}
+.mon {
+  width: 500px;
+  height: auto;
+  background-color: transparent;
+  filter: brightness(0);
+  display: block;
+  margin: auto;
+  margin-top: px;
+}
+
+.border {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.species {
+  font-size: 4rem;
+  margin-top: -700px;
+  margin-left: 80px;
+}
+
+#board {
+  font-size: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-left: 1550px;
+  margin-top: -150px;
+}
+
+.bn {
+  margin: 10px;
 }
