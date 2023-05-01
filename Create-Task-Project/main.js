@@ -43,14 +43,15 @@ function letters() {
 
 lt = document.querySelector('bn')
 
-wrd = random("#name")
-for (let i =0; i < wrd.length; i++) {
-  const blank = `<h2 class = "species"> _ </h2>`
-  display.insertAdjacentHTML('beforeend', blank)
-}
+
+//const wrd = random("#name")
+//for (let i =0; i < wrd.length; i++) {
+//  const blank = `<h2 class = "species"> _ </h2>`
+//  display.insertAdjacentHTML('beforeend', blank)
+//}
 
 letters();
-bk();
+
 
 start.addEventListener("click", random);
 

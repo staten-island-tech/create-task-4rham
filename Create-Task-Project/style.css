@@ -23,7 +23,7 @@ body,
   height: auto;
   display: block;
   margin: auto;
-  margin-top: -515px;
+  margin-top: 300px;
 }
 
 .who{
@@ -72,6 +72,8 @@ body,
   width: 300px;
   margin-left: 1550px;
   margin-top: -150px;
+  padding: 3px;
+  background-color: aliceblue;
 }
 
 .bn {
