@@ -5,6 +5,7 @@ const start = document.querySelector("#start")
 const display = document.querySelector("#guess")
 const number = () => Math.floor(Math.random() * 1010 + 1)
 let blank = null;
+let lt
 
 const random = () => {
   const fullurl = URL + number()
@@ -21,20 +22,18 @@ const present = (name, sprite) => {
   console.log(name, sprite)
 }
 
-function bk() {
-  blank = display.split('').map(letter => (guessed.indexOf(letter) >= 0 ? letter: "_")).join('')
-  document.getElementById('species').innerHTML = blank
-}
+//function bk() {
+//  blank = species.split('').map(letter => (guessed.indexOf(letter) >= 0 ? letter: " _ ")).join('');
+//  document.getElementById('guess').innerHTML = blank
+//}
 
-start.addEventListener("click", random)
-
-window.onload = () => {
-  random()
-}
+//const smth = function (sm) {
+//  
+//}
 
 function letters() {
-  let key = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
-    `<button class = "bn" id = `+ letter +` onClick = "handleGuess('`+ letter +`')">
+  let key = 'abcdefghijklmnopqrstuvwxyz1234567890-'.split('').map(letter =>
+    `<button class = "bn" id = `+ letter +` onClick = "stat('`+ letter +`')">
     ` + letter + `
     </button> 
     `).join(''); 
@@ -42,5 +41,19 @@ function letters() {
   document.getElementById('board').innerHTML = key
 }
 
+lt = document.querySelector('bn')
+
+wrd = random("#name")
+for (let i =0; i < wrd.length; i++) {
+  const blank = `<h2 class = "species"> _ </h2>`
+  display.insertAdjacentHTML('beforeend', blank)
+}
+
 letters();
 bk();
+
+start.addEventListener("click", random);
+
+window.onload = () => {
+  random()
+}
