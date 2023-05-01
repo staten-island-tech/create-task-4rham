@@ -11,18 +11,22 @@
       <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"></div>
   </head>
   <body>
-    <div id = "firstELement"></div>
-    <div id="app"></div>
+    <div id="app"></div>\
     <h1 class = "who">Whos That Pokemon?</h1>
-    <img class = "border" src="border.jpg" alt="border">
-    <div id = "guess"></div>
-  <img id = "balls" src="My project.png" alt="balls">
+    <div class = "guess">
+      <img id = "balls" src="My project.png" alt="balls">
+      <div id = "img"></div>
+    </div>
     <div class = "game">
-      <h3 id = "score">Score: <span id = "up">0</span></h3>
-      <h3 id = "lives">Lives: <span id = "down">3</h3>
-      <button id = "start">Generate</button>
-      </div>
-      <div id = "board"></div>
+      <div id ="letter"></div>
+      <div id ="prompt"></div>
+      <button id = "reset">reset</button>
+      <h3 id = "score">Score</h3>
+      <h3 id = "lives">Live</h3>
+    </div> 
+    <section class = "Result">
+      <div id = "result"></div>
+    </section>
+    <script type="module" src="./main.js"></script>
   </body>
-  <script type="module" src="./main.js"></script>
 </html>

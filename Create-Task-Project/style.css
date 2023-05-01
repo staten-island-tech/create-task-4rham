@@ -5,7 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #79c877;
+  background-color: var(--primary);
   color: rgb(0, 0, 0);
   font-family: 'Press Start 2P', cursive;
 }
@@ -13,29 +13,27 @@ body,
 :root{
   --red: #ea0012
   --blue: #3a5da8
-  --yellow: #ffcb05 
+  --yellow: #ffcb05
   --black:#000005
   --white:#f5f5f5
 }
 
 #balls{
-  width: 500px;
+  width: 800px;
   height: auto;
   display: block;
   margin: auto;
-  margin-top: -515px;
 }
 
 .who{
   font-size: 5rem;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 10px;
 }
 
 #prompt{
   font-size: 2.5rem;
   text-align: center;
+<<<<<<< HEAD
 }
 
 .game {
@@ -76,4 +74,6 @@ body,
 
 .bn {
   margin: 10px;
+=======
+>>>>>>> parent of 101baf7 (ochen khorosho)
 }
