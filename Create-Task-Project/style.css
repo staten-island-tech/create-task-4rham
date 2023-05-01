@@ -64,7 +64,7 @@ body,
 }
 
 #board {
-  font-size: 7.5rem;
+  font-size: 8rem;
   display: flex;
   flex-wrap: wrap;
   width: 300px;
