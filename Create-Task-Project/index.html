@@ -18,11 +18,18 @@
     <div id = "guess"></div>
   <img id = "balls" src="My project.png" alt="balls">
     <div class = "game">
-      <h3 id = "score">Score: <span id = "up">0</span></h3>
-      <h3 id = "lives">Lives: <span id = "down">3</h3>
-      <button id = "start">Generate</button>
+      <h3 id = "score"></h3>
+      <h3 id = "mistake"></h3>
+      <form id = "form">
+        <input type="submit" name="start" id="start"> 
+      </form>
       </div>
       <div id = "board"></div>
+      <form id = "insert" name = "insert">
+        <p>Input Your Guess Here:</p>
+        <input id = "tb" type="text" name = "g">
+        <button id = "but">Check</button>
+      </form>
     <section class = "Result">
       <div id = "result"></div>
     </section>
